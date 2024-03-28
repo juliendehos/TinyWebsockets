@@ -37,3 +37,5 @@ set_target_properties(tiny_websockets_lib PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(tiny_websockets_lib PUBLIC include)
 
 install(TARGETS tiny_websockets_lib DESTINATION lib)
+install(DIRECTORY include/tiny_websockets DESTINATION include)
+
